@@ -65,6 +65,7 @@ class ReplicadorEscritorio(QtWidgets.QMainWindow):
     #Función que añade al cuadro de texto el proceso
     def consola(self,m):
         self.txtSalida.appendPlainText(m)    
+       
         
     #Función para borrar la información de la consola
     def limpiar(self):
